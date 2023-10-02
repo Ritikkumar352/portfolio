@@ -1,0 +1,142 @@
+:root {
+  --primary-color: | #fff;
+  --secondary-color: #333;
+  --main-color: #754ef9;
+}
+
+/*image on top */
+
+#ritik{
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+
+}
+
+.end-line{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+/*Second feature*/
+
+.para
+{
+    color: #fff;
+}
+
+.icon{
+    color: #754ef9;
+    margin:1rem;
+  }
+
+
+#education {
+    /* height:90vh ;          causing issue in mobile view*/
+  padding: 7% 8%;
+  background-color: #333;
+}
+
+.col-lg-4 {
+  padding: 3%;
+}
+
+/* Nav-bar */
+.navbar-brand {
+  font-family: ubunt;
+  font-size: 2rem;
+  color: #fce2db;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.nav-item {
+  padding: 0 12px;
+}
+
+.nav-link {
+  font-weight: 400;
+}
+
+.download-button {
+  margin: 2%;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(5deg);
+}
+
+/*Footer section*/
+
+#footer-mail {
+  text-decoration: none;
+}
+
+.contact {
+  background: var(--main-color);
+  position: relative;
+  height: 42vh;
+}
+.contact-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.contact-content h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 0.5rem;
+}
+.contact-content .mail {
+  color: #f0f0e6;
+  padding-bottom: 0.2rem;
+  font-size: 1rem;
+}
+.contact-content .links {
+  color: var(--main-color);
+  padding: 0.5rem;
+  padding-bottom: 1.8rem;
+  font-size: 1rem;
+}
+.contact-content a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.5rem;
+  transition: 0.3s ease-in-out;
+}
+.contact-content a:hover {
+  color: var(--secondary-color);
+}
+
+
+/*Footer social icon font awesom and boxicon */
+
+.social-media-footer a{
+    display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  font-size: 20px;
+  color: var(--main-color);
+  text-decoration: none;
+  margin: 25px 15px 30px 0;
+  transition: 0.4s ease;
+
+
+}
+
+
+.social-media-footer a:hover {
+    background: #333;
+    color: #fff;
+  }
